@@ -11,7 +11,7 @@
             "name": "Debug Current Test",
             "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/wdio",
             "cwd": "${workspaceRoot}",
-            // "console": "integratedTerminal",
+            "console": "integratedTerminal",
             // This args config runs only the file that's open and displayed
             // (e.g., a file in test/spec/):
             "args":[
