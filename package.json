@@ -1,0 +1,9 @@
+{
+  "name": "wdio5POC",
+  "version": "1.0.0",
+  "description": "POC for version 5 of Webdriver IO",
+  "main": "index.js",
+  "repository": "git@github.com:smarigowda/wdio5POC.git",
+  "author": "Santosh Marigowda",
+  "license": "MIT"
+}
