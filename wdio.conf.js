@@ -66,6 +66,8 @@ exports.config = {
     //
     // Warns when a deprecated command is used
     deprecationWarnings: true,
+    debug: true,
+    execArgv: ['--inspect-brk=127.0.0.1:5859'],
     //
     // If you only want to run your tests until a specific amount of tests have failed use
     // bail (default is 0 - don't bail, run all tests).
