@@ -112,7 +112,7 @@ exports.config = {
     services: ['selenium-standalone'],
 
     debug: true,
-    // execArgv: ['--inspect-brk=127.0.0.1:5859'],
+    execArgv: ['--inspect-brk=127.0.0.1:5859'],
     // execArgv: ['--inspect=127.0.0.1:5859'],
 
     //
