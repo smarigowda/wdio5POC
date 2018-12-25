@@ -1,9 +1,23 @@
 {
-  "name": "wdio5POC",
+  "name": "wdio5poc",
   "version": "1.0.0",
   "description": "POC for version 5 of Webdriver IO",
   "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
   "repository": "git@github.com:smarigowda/wdio5POC.git",
   "author": "Santosh Marigowda",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "webdriverio": "^5.0.3"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^5.0.3",
+    "@wdio/local-runner": "^5.0.3",
+    "@wdio/mocha-framework": "^5.0.3",
+    "@wdio/selenium-standalone-service": "^5.0.3",
+    "@wdio/spec-reporter": "^5.0.3",
+    "wdio-chromedriver-service": "^0.1.5"
+  }
 }
