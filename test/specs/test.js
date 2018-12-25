@@ -2,8 +2,9 @@ const assert = require('assert');
 
 describe('webdriver.io page', () => {
     it('should have the right title', async () => {
-        await browser.url('https://webdriver.io');
+        // await browser.url('https://webdriver.io');
+        await browser.url('https://www.google.com/');
         const title = await browser.getTitle();
-        assert.equal(title, 'WebdriverIO · Next-gen WebDriver test framework for Node.js');
+        // assert.equal(title, 'WebdriverIO · Next-gen WebDriver test framework for Node.js');
     });
 });

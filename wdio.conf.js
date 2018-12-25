@@ -62,6 +62,7 @@ exports.config = {
     //
     // Level of logging verbosity: trace | debug | info | warn | error
     logLevel: 'trace',
+    logDir: './',
     //
     // Warns when a deprecated command is used
     deprecationWarnings: true,
