@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-describe('webdriver.io page', () => {
+describe('Google Home Page', () => {
     it('should have the right title', () => {
         browser.url('https://www.google.com');
         const title = browser.getTitle();
