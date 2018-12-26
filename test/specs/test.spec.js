@@ -5,7 +5,7 @@ describe('webdriver.io page', () => {
         browser.url('https://www.google.com');
         const title = browser.getTitle();
         // browser.debug();
-        assert(1,1);
+        assert(title,'Google');
         // assert.equal(title, 'WebdriverIO - WebDriver bindings for Node.js');
     });
 });
