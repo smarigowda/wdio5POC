@@ -54,11 +54,13 @@ exports.config = {
         maxInstances: 5,
         //
         browserName: 'chrome'
-    },
-    {
-        browserName: 'firefox',
-        maxInstances: 1,
-    }],
+    }
+    // ,
+    // {
+    //     browserName: 'firefox',
+    //     maxInstances: 1,
+    // }
+],
     //
     // ===================
     // Test Configurations
@@ -116,8 +118,8 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     services: ['selenium-standalone'],
 
-    // debug: true,
-    // execArgv: ['--inspect-brk=127.0.0.1:5859'],
+    debug: true,
+    execArgv: ['--inspect-brk=127.0.0.1:5859'],
     // execArgv: ['--inspect=127.0.0.1:5859'],
 
     //
